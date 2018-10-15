@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LoginApp"
+             x:Class="LoginApp.Page1">
+
+    <TabbedPage.ToolbarItems>
+
+        <ToolbarItem Text="Add" x:Name="btnAdd" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Delete" x:Name="btnDelete" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Exit" x:Name="btnExit" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="View" x:Name="btnView" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Close" x:Name="btnClose" Clicked="ToolbarItem_Clicked"/>
+
+
+
+
+
+
+    </TabbedPage.ToolbarItems>
+
+
+
+            <!--need to add the local namespace (PageNavSample)
+    like adding a using statement in c#-->
+
+    <local:CelticGods Title="Celtic Gods"/>
+
+
+</TabbedPage>
